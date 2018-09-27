@@ -6,7 +6,7 @@
     (test-nequal "1st element is not b" (element-at test-val 1) 'b)
     (test-equal "3rd element is c" (element-at test-val 3) 'c)
     (test-equal "4th element is d" (element-at test-val 4) 'd)
-    (test-equal "Reverse list" (reverse-lst test-val) '(d c b a))
+    (test-equal "Reverse list" (reverse-list test-val) '(d c b a))
     (test-equal "Length equal" (len '()) 0)
     (test-equal "Length equal" (len test-val) 4))
 

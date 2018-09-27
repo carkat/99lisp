@@ -1,6 +1,6 @@
 (defun last-box (list)
   "problem 01"
-  (if (second list)
+  (if (rest list)
       (last-box (cdr list))
       list))
 
